@@ -309,4 +309,320 @@
 		<description lang="en">Media browser</description>
 	</extension>
 </addon>
+
+<addon id="plugin.video.NBA.com.Videos"
+       name="NBA.com Videos"
+       version="1.0.6"
+       provider-name="stacked">
+  <requires>
+    <import addon="xbmc.python" version="1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Watch sports clips from NBA.com</summary>
+    <description>Watch sports clips from NBA.com.  IMPORTANT INFO: You must enable "Use DVD Player" in plugin settings or streams will fail to play.</description>
+    <platform>all</platform>
+	<genre>sports</genre>
+  </extension>
+</addon>
+
+<addon id="plugin.video.NewsLook"
+       name="NewsLook"
+       version="1.0.0"
+       provider-name="queeup">
+  <requires>
+    <import addon="xbmc.python" version="1.0"/>
+	<import addon="script.module.beautifulsoup" version="3.0.8"/>
+	<import addon="script.module.simplejson"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Watch news clips from NewsLook</summary>
+    <description>NewsLook - bringing you the best video news.</description>
+    <platform>all</platform>
+	<license>WTFPL</license>
+	<genre>news</genre>
+  </extension>
+</addon>
+
+<addon id="plugin.video.onion.news"
+       name="Onion News"
+       version="0.1.0"
+       provider-name="schneidz">
+  <requires>
+    <import addon="xbmc.python" version="1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>Watch clips from The Onion News Network</summary>
+    <description>This add-on scrapes the last 20 videos posted to the onion's rss feed.</description>
+	<genre>news,comedy</genre>
+  </extension>
+</addon>
+
+<addon id="plugin.video.openfilm"
+       name="OpenFilm"
+       version="1.0.1"
+       provider-name="queeup">
+  <requires>
+    <import addon="xbmc.python" version="1.0"/>
+	<import addon="script.module.beautifulsoup" version="3.0.8"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>OpenFilm.com video add-on</summary>
+    <description>Openfilm brings the best elements of the film industry together. With an innovative platform designed to change the process of discovering great independent film, Openfilm is dedicated to developing, marketing and distributing great works.</description>
+    <platform>all</platform>
+	<license>WTFPL</license>
+	<genre>tv,movies</genre>
+  </extension>
+</addon>
+
+<addon id="plugin.video.pelisalacarta"
+    name="pelisalacarta"
+    version="3.2.69"
+    provider-name="tvalacarta">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="es">Películas y series a la carta</summary>
+    <description lang="es">Películas, series, documentales, anime, ... todo lo que puedas encontrar en Internet ahora desde tu media center. Incluye canales en Español, Italiano, Portugués y Francés.</description>
+    <summary lang="en">Movies and TV Shows on demand (Spanish)</summary>
+    <description lang="en">Spanish plugin for watching Movies and TV Shows on demand. It uses more than 70 different source sites that provide streamed media contents</description>
+    <platform>all</platform>
+  </extension>
+  <extension point="xbmc.service" library="library_service.py" start="login|startup">
+  </extension>
+</addon>
+
+<addon id="plugin.video.reality"
+       name="Reality Lapse"
+       version="1.0"
+       provider-name="Voinage">
+  <requires>
+    <import addon="xbmc.python" version="1.0"/>
+
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>Anime video plugin</summary>
+    <description>Reality Lapse provides anime from a huge back catalogue.</description>
+	<genre>anime</anime>
+  </extension>
+</addon>
+
+<addon
+  id="plugin.video.revision3light"
+  version="1.0.1"
+  name="Revision 3 Light"
+  provider-name="skatulskijean">
+  <requires>
+   <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+   <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Revision 3 Light</summary>
+    <description></description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.sciencenetwork"
+       name="The Science Network"
+       version="1.0"
+       provider-name="sloppymcnubble">
+  <requires>
+    <import addon="xbmc.python" version="1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>Videos from The Science Network</summary>
+    <description lang="en">Videos from The Science Network</description>
+	<genre>howto</genre>
+  </extension>
+</addon>
+
+<addon
+  id="plugin.video.starwars"
+  version="1.0.0"
+  name="Star Wars"
+  provider-name="mtubesing,xboxFork-skatulskijean">
+  <requires>
+    <import addon="xbmc.python"
+            version="1.0"/>
+    <import addon="script.module.simplejson"
+            version="2.0.10"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+             library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>StarWars.com Video add-on</summary>
+    <description>Watch clips and episodes from the StarWars.com website</description>
+    <platform>all</platform>
+	<genre>movies</genre>
+  </extension>
+</addon>
+
+<addon id="plugin.video.theguild"
+       name="The Guild"
+       version="1.0.5"
+       provider-name="queeup">
+  <requires>
+    <import addon="xbmc.python" version="1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>The Guild video plugin</summary>
+    <summary lang="tr">The Guild video plugin</summary>
+    <description>The Guild is a web series about a group of online gamers.</description>
+    <description lang="tr">The Guild is a web series about a group of online gamers.</description>
+    <disclaimer>I do not host any of the online video, audio, and photo files that some of the add-ons link to stored on third-party websites, nor do they upload such files themselves. They are not responsible for what other people upload to any third-party sites. Therefore we urge all copyright owners, to recognize that the links contained within these add-ons are located somewhere else on the web. The scraped embedded links point to the location of each video on the web. Please direct all copyright infringement issues to the companies that host these files :- Google, Dailymotion, Veoh, and so forth.</disclaimer>
+    <disclaimer lang="tr">I do not host any of the online video, audio, and photo files that some of the add-ons link to stored on third-party websites, nor do they upload such files themselves. They are not responsible for what other people upload to any third-party sites. Therefore we urge all copyright owners, to recognize that the links contained within these add-ons are located somewhere else on the web. The scraped embedded links point to the location of each video on the web. Please direct all copyright infringement issues to the companies that host these files :- Google, Dailymotion, Veoh, and so forth.</disclaimer>
+    <platform>all</platform>
+	<license>WTFPL</license>
+	<genre>tv,gaming</genre>
+  </extension>
+</addon>
+
+<addon id="plugin.video.UBU"
+       name="UBU"
+       version="0.0.1"
+       provider-name="unknown">
+  <requires>
+    <import addon="xbmc.python" version="1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Watch content from UBU</summary>
+    <description>View Avant Garde content from the UBU website</description>
+    <platform>all</platform>
+	<license>WTFPL</license>
+	<genre>tv,french</genre>
+  </extension>
+</addon>
+
+<addon id="plugin.video.vimeosearch"
+       name="VimeoSearchXBMC4XBOX"
+       version="0.0.1"
+       provider-name="Skatulskijean">
+  <requires>
+    <import addon="xbmc.python" version="1.0"/>
+	  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>skatulskijean</summary>
+    <description>Search on Vimeo</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.whufclee"
+	name="totalXBMC Guides" version="1.0.5" provider-name="whufclee">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="plugin.video.youtube" version="3.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">totalXBMC Guides</summary>
+    <description lang="en">Here you will find all your XBMC related video guides. Please note this is a collection of self-help XBMC guides provided by various members of the community so a big thank you goes out to everyone involved. TotalXBMC.tv take no responsibility for the content of these videos, they are all freely available via youtube - we've simply asked the uploaders permission to add them to our playlist so you have everything XBMC related in one easy to find place.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon
+  id="plugin.video.xbmcearth"
+  version="0.50"
+  name="XBMC Earth"
+  provider-name="MrLight">
+  <requires>
+   <import addon="xbmc.python" version="2.0"/>
+  </requires>
+  <extension
+    point="xbmc.python.pluginsource"
+    library="default.py">
+   <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>XBMC Earth</summary>
+    <description></description>
+    <platform>all</platform>
+  </extension>
+  <statfeed>
+    <working>yes</working>
+	<notes>none</notes>
+	<maintainer>MrLight</maintainer>
+    </statfeed>
+</addon>
+
+<addon id="plugin.video.youtubesearch"
+       name="YoutubeSearch"
+       version="0.0.2"
+       provider-name="Skatulskijean">
+  <requires>
+    <import addon="xbmc.python" version="1.0"/>
+	  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>skatulskijean</summary>
+    <description>Search on Youtube</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="repository.homeless.addons" name="Homeless Add-ons Repository" version="1.0.1" provider-name="totalxbmc">
+	<extension point="xbmc.addon.repository" name="Homeless Addon Repository">
+		<info compressed="false">https://raw.githubusercontent.com/totalxbmc/HomelessAddons/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/totalxbmc/HomelessAddons/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/totalxbmc/HomelessAddons/master/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Install Add-on that home no home repository</summary>
+		<description>Vagrant Addons</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
 </addons>
