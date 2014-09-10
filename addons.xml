@@ -53,4 +53,156 @@
     <license>GPLv3</license>
 	</extension>
 </addon>
+
+<addon id="plugin.audio.shoutcast.original" version="1.2.0" name="XBMC Shoutcast" provider-name="Team XBMC">
+    <requires>
+        <import addon="xbmc.python" version="1.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>audio</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+    <summary lang="en">Shoutcast</summary>
+    <summary lang="hu">Shoutcast rádiók</summary>
+    <summary lang="pt">Rádio Shoutcast</summary>
+    <description lang="en">SHOUTcast Radio offers thousands of free Internet radio stations from DJs and broadcasters around the world</description>
+    <description lang="hu">A SHOUTcast több ezer ingyenes internetes rádiót kínál DJ-k és rádióállomások jóvoltából.</description>
+    <description lang="pt">A rádio SHOUTcast oferece milhares de rádios livres existentes na Internet, mantidas por DJs de todo o mundo.</description>
+        <platform>all</platform>
+    <genre>music,radio</genre>
+    <license>GPLv3</license>
+	</extension>
+</addon>
+
+<addon id="plugin.image.flickr.original"
+       name="Flickr (Old Original)"
+       version="1.5.4"
+       provider-name="nuka">
+  <requires>
+    <import addon="xbmc.python" version="1.0"/>
+   </requires>
+
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>image</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">flickrXBMC: flickr on XBMC</summary>
+	<summary lang="de">flickrXBMC: flickr in XBMC</summary>
+	<summary lang="es">flickrXBMC: flickr en XBMC</summary>
+	<summary lang="nl">flickrXBMC: Flickr op XBMC</summary>
+    <description>View photos from the Flickr website.</description>
+	<platform>all</platform>
+	<license>GPL</license>
+	<genre>photos</genre>
+  </extension>
+</addon>
+
+<addon id="plugin.image.Flickr2"
+       name="Flickr2"
+       version="1.2"
+       provider-name="Dan Dar3">
+  <requires>
+    <import addon="xbmc.python" version="1.0"/>
+   </requires>
+
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>image</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">flickrXBMC: flickr on XBMC</summary>
+	<summary lang="de">flickrXBMC: flickr in XBMC</summary>
+	<summary lang="es">flickrXBMC: flickr en XBMC</summary>
+	<summary lang="nl">flickrXBMC: Flickr op XBMC</summary>
+    <description>View photos from the Flickr website.</description>
+	<platform>all</platform>
+	<license>GPL</license>
+	<genre>photos</genre>
+  </extension>
+</addon>
+
+<addon id="plugin.image.Phonebin"
+       name="Phonebin"
+       version="1.0"
+       provider-name="BigBellyBilly">
+  <requires>
+    <import addon="xbmc.python" version="1.0"/>
+  </requires>
+
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>image</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Plugin for viewing Phonebin.com content.</summary>
+    <description>Plugin for viewing Phonebin.com content.</description>
+	<platform>all</platform>
+	<genre>adult</genre>
+  </extension>
+</addon>
+
+<addon id="plugin.image.Picasa.original"
+       name="Picasa"
+       version="1.4.0b"
+       provider-name="nuka">
+  <requires>
+    <import addon="xbmc.python" version="1.0"/>
+   </requires>
+
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>image</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <description>View photos from the Picasa website.</description>
+	<platform>all</platform>
+	<license>GPL</license>
+	<genre>photos</genre>
+  </extension>
+</addon>
+
+<addon id="plugin.program.notepad"
+       name="Notepad"
+       version="1.4.0"
+       provider-name="TestTeam">
+  <requires>
+    <import addon="xbmc.python" version="1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>program</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <minversion>28764</minversion>
+    <summary lang="en">Noptepad</summary>
+    <description lang="en">Notepad</description>
+  </extension>
+  <statfeed>
+    <working>yes</working>
+	<notes>This is a text reader</notes>
+	<maintainer>DanDar3</maintainer>
+	<genre>other</other>
+  </statfeed>
+</addon>
+
+<addon id="plugin.rtmpGUInoEPG"
+       name="rtmpGUInoEPG"
+       version="1.1.0"
+       provider-name="BlueCop, HansMayer, Skatulskijean">
+  <requires>
+  <import addon="xbmc.python" version="2.0"/>
+	<import addon="script.module.beautifulsoup" version="3.0.8"/>
+  <import addon="script.module.simplejson" />
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>rtmpGUI+</summary>
+    <description>LIVE TV!</description>
+    <platform>all</platform>
+  </extension>
+</addon>
 </addons>
