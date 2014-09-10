@@ -35,4 +35,22 @@
         <description lang="en">Access the Music Libary from your Plexmediaserver (Artsits,Albums,Songs with Fanart and Covers) you can search for Artists,Albums and Tracks</description>
     </extension>
 </addon>
+
+<addon id="plugin.audio.radiobob" version="0.1" name="Radiobob WebRadio" provider-name="mad-max">
+    <requires>
+        <import addon="xbmc.python" version="1.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>audio</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+    <summary lang="en">Live-Stream from the German Rock Radio "RadioBOB"</summary>
+    <summary lang="de">Live-Stream des Rocksenders "RadioBOB"</summary>
+    <description lang="en">Listen to all kind of rock music, powered by RadioBOB</description>
+    <description lang="de">Genieße alle Arten von Rockmusik, powered by RadioBOB</description>
+        <platform>all</platform>
+    <genre>music,radio</genre>
+    <license>GPLv3</license>
+	</extension>
+</addon>
 </addons>
