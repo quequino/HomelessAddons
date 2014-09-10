@@ -181,4 +181,132 @@
     <platform>all</platform>
   </extension>
 </addon>
+
+<addon id="plugin.video.bestofnhk" name="Best of NHK" version="0.9.1" provider-name="misty">
+  <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+	    <import addon="script.module.t0mm0.common" version="2.1.1"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+  	    <platform>all</platform>
+  	    <language></language>
+        <summary>bestofnhk.tv</summary>
+        <description>Weird, fun, interesting documentaries from NHK World Japan. New shows daily.</description>
+  </extension>
+</addon>
+
+<addon id="plugin.video.bestofnhk" name="Best of NHK" version="0.9.1" provider-name="misty">
+  <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+	    <import addon="script.module.t0mm0.common" version="2.1.1"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+  	    <platform>all</platform>
+  	    <language></language>
+        <summary>bestofnhk.tv</summary>
+        <description>Weird, fun, interesting documentaries from NHK World Japan. New shows daily.</description>
+  </extension>
+</addon>
+
+<addon id="plugin.video.itv.catchup"
+       name="ITV Catchup"
+       version="1.0.7"
+       provider-name="dlake02">
+  <requires>
+    <import addon="xbmc.python" version="1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>ITV Player</summary>
+    <description>Catchup with shows from UK network ITV.  NOTE: This geo-locked to UK ONLY.</description>
+	<genre>tv,uk</genre>
+    <license>GPL</license>
+  </extension>
+</addon>
+
+<addon
+  id="plugin.video.Microsoft.PDC"
+  version="1.0.0"
+  name="Microsoft PDC"
+  provider-name="Dan Dar3">
+  <requires>
+    <import addon="xbmc.python"
+            version="1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+             library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Watch videos from MicrosoftPDC.com</summary>
+    <platform>all</platform>
+	<genre>tech</genre>
+  </extension>
+</addon>
+
+<addon id="plugin.video.mikewallace"
+       name="The Mike Wallace Interview"
+       version="0.0.1"
+       provider-name="unknown">
+  <requires>
+    <import addon="xbmc.python" version="1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Watch the Mike Wallace Interviews</summary>
+    <platform>all</platform>
+	<license>WTFPL</license>
+	<genre>tv</genre>
+  </extension>
+</addon>
+
+<addon id="plugin.video.msnbc"
+       name="MSNBC"
+       version="0.0.4"
+       provider-name="andre">
+  <requires>
+    <import addon="xbmc.python" version="1.0"/>
+	<import addon="script.module.beautifulsoup" version="3.0.8"/>
+	<import addon="script.module.simplejson"/>
+	<import addon="script.module.elementtree"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Stream videos from news channel MSNBC</summary>
+    <platform>all</platform>
+	<license>GPL</license>
+	<genre>news</genre>
+  </extension>
+</addon>
+
+<addon id="plugin.video.navi-x" name="Navi-X"
+	version="0.4.0" provider-name="cbb">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+	<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Media browser</summary>
+		<description lang="en">Media browser</description>
+	</extension>
+</addon>
 </addons>
