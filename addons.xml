@@ -625,4 +625,285 @@
 		<platform>all</platform>
 	</extension>
 </addon>
+
+<addon id="script.bbcfootballscores"
+       name="BBC Football Scores"
+       version="0.1"
+       provider-name="el_Paraguayo">
+  <requires>
+    <import addon="xbmc.python" version="1.0"/>
+    <import addon="script.module.simplejson" version="2.0.10"/>
+  </requires>
+  <extension point="xbmc.python.script"
+             library="default.py" />
+ <provides>executable</provides>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">BBC Football Scores</summary>
+    <description lang="en">Basic scraper to display live scores and goalflashes.</description>
+	<genre>sports</genre>
+  </extension>
+</addon>
+
+<addon id="script.game.2048" name="2048" version="0.0.2" provider-name="Tristan Fischer (sphere@dersphere.de)">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.script" library="game.py"/>
+    <extension point="xbmc.addon.metadata">
+        <language/>
+        <platform>all</platform>
+        <website></website>
+        <source></source>
+        <forum></forum>
+        <email>sphere@dersphere.de</email>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <summary lang="en">Game 2048</summary>
+        <description lang="en">2048</description>
+    </extension>
+</addon>
+
+<!--$Revision: 916 $-->
+<addon id="script.game.hangman" name="HangMan"
+       version="1.0.6" date="16.12.2010"
+       provider-name="Frost (passion-xbmc.org)">
+  <requires>
+    <import addon="xbmc.python" version="1.0"/>
+  </requires>
+  <extension point="xbmc.python.script"
+             library="default.py"/>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <nofanart>true</nofanart>
+    <nochangelog>true</nochangelog>
+    <summary>Jeu du bonhomme pendu pour XBMC</summary>
+    <description>Le pendu est un jeu consistant à trouver un mot en devinant quelles sont les lettres qui le composent. Le jeu se joue traditionnellement à deux, avec un papier et un crayon, selon un déroulement bien particulier.</description>
+	<genre>gaming</genre>
+  </extension>
+</addon>
+
+<!--$Revision: 871 $-->
+<addon id="script.game.space.invaders" name="Space Invaders"
+       version="1.0.0" date="11.10.2010"
+       provider-name="Donno (darkdonno@gmail.com)">
+  <requires>
+    <import addon="xbmc.python" version="1.0"/>
+  </requires>
+  <extension point="xbmc.python.script"
+             library="default.py"/>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>Space Invaders Game for XBMC</summary>
+    <description>All credits and special thanks to Donno.
+About:
+  Project Started around April/May 2006.
+  An attempt to show the true power in combining XBMC with Python.
+  So I decide to choose to make  Space Invaders Remake
+  I will not release the script till I think its full ready for public use.
+  Check the web page for a few avi (which are WIP showing the progress)
+
+Feature List:
+  Themes - Incomplete (Coded but not Made, code needs improving)
+  Background Music - Optional 'Overwrite music' with Custom Playlist.pls in Music folder
+  Highscore Loading from Internet/Local
+  Standard Objects: Red Bonus Saucer, Shields, Invaders
+  Collision Dectection between Friendly and Emeny bullet
+  Every 1000 score will give you an extra life
+  Added Check for Theme Media
+  Invader fire at you and the shields
+  Settings - Options
+  Special Effect Sounds
+  Pause
+  AutoPause when you go to Full Screen Video/Viz
+  GameOver Screens  ('Splash' Full Screen picture)  - Out Of Lifes and Invaders have landed
+</description>
+    <disclaimer>Remember, High-scores on-line not working....</disclaimer>
+	<genre>gaming</genre>
+  </extension>
+</addon>
+
+<!--$Revision: 871 $-->
+<addon id="script.game.tetris" name="Tetris"
+       version="1.0.2" date="11.10.2010"
+       provider-name="Asteron (asteron.projects.googlepages.com)">
+  <requires>
+    <import addon="xbmc.python" version="1.0"/>
+  </requires>
+  <extension point="xbmc.python.script"
+             library="default.py"/>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>Tetris Game for XBMC</summary>
+    <disclaimer>Remember, High-scores on-line not working....</disclaimer>
+    <description>All credits and special thanks to Asteron.
+Intro:
+  Tetris: The timeless classic finally reaches the XBMC platform!
+  If you aren't familiar with this game by now then there's no hope for you.
+  Clear lines to get points.  Advance through the levels for large bonuses.
+  Take a chance and go for the 4-line clears to get the best score!
+
+  Are you up to the challenge?
+
+You can find the latest version of this script at:
+  http://code.google.com/p/xbmc-scripting/
+  http://asteron.projects.googlepages.com/
+
+Features:
+  Online and Local Highscores - submit your best scores to the online database run by Rockstarr
+  Ghost Piece - turn on this advanced option from the pause menu to see where a piece will fall
+  Saved settings - you will only need to enter your name once but can change it later
+  Custom sounds and graphics !
+
+Controls:
+  Left     - move piece left
+  Right    - move piece right
+  X        - rotate piece counter clockwise
+  B / Q    - rotate piece clockwise (Q = Queue Item)
+  Up       - 'near' drop : drops the piece to just above the ground
+  A / Down - 'hard' drop : drops the piece to the ground and locks it
+  RTrigger - increases gravity
+  Start    - Pause screen
+
+Scoring:
+  1-line clear -  1 point  times current level
+  2-line clear -  4 points times current level
+  3-line clear -  9 points times current level
+  4-line clear - 16 points times current level
+  Level Up     - 15 points times new level
+
+Speed:
+  Each level speed increases by 40% up to a maximum speed around level 8.
+  Surviving becomes very difficult and you should try to get as many points
+  as you can before losing control.
+
+High-score Strategy:
+  Going for nothing but 4-line clears will give you the most points in any
+given level.  However, this tends to lead to high towers and is inherently
+risky.  Leveling up is   easier with smaller clears and will get you more
+quickly to the higher scoring levels.  You must find a good balance between
+high-scoring multi-line clears and the smaller, safer clears.
+</description>
+<genre>gaming</genre>
+  </extension>
+</addon>
+
+<addon id="script.home.theatre.experience"
+       name="Home Theatre Experience"
+       version="1.5.1c"
+       provider-name="nuka">
+  <requires>
+    <import addon="xbmc.python" version="1.0"/>
+  </requires>
+  <extension point="xbmc.python.script"
+             library="default.py" />
+ <provides>executable</provides>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+	<summary>Home Theatre Experience</summary>
+    <description>For the cinema experience at home, watch upcoming trailers and trivia clips before the movie starts.</description>
+	<genre>trailers,movies</genre>
+    <license>GPL</license>
+  </extension>
+</addon>
+
+<addon id="script.My.Program.Plugins"
+       name="My Program Plugins"
+       version="1.0"
+       provider-name="Frost">
+  <requires>
+    <import addon="xbmc.python" version="1.0"/>
+  </requires>
+  <extension point="xbmc.python.script"
+             library="default.py" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">A shortcut to take you from scripts to program plugins.</summary>
+    <description lang="en">A shortcut to take you from scripts to program plugins.</description>
+    <platform>all</platform>
+	<genre>other</genre>
+  </extension>
+</addon>
+
+<addon id="script.opensubtitles.OSD"
+       name="Open Subtitles OSD"
+       version="1.52"
+       provider-name="Amet">
+  <requires>
+    <import addon="xbmc.python" version="1.0"/>
+  </requires>
+  <extension point="xbmc.python.script"
+             library="default.py" />
+ <provides>executable</provides>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>Search and Download subtitles via OSD</summary>
+	<genre>subtitles,movies</genre>
+    <license>GPL</license>
+  </extension>
+</addon>
+
+<addon id="script.Persistence"
+       name="Persistence"
+       version="0.1"
+       provider-name="unknown">
+  <requires>
+    <import addon="xbmc.python" version="1.0"/>
+  </requires>
+  <extension point="xbmc.python.script"
+             library="default.py" />
+  <extension point="xbmc.addon.metadata">
+    <summary>Persisence</summary>
+    <description>The script contained in this file is designed to provide a background server that holds persistent objects in memory and makes them available (via socket connections)to other client scripts and plugins. Please note that Persistence is an advanced developer's tool because it is useless as a standalone script, and any plugins or scripts that connect to it must be configured properly to act as clients.</description>
+    <platform>all</platform>
+	<genre>other</genre>
+  </extension>
+</addon>
+
+<addon id="script.Plugin.Maker"
+       name="Plugin Maker"
+       version="1.2"
+       provider-name="Nuka1195">
+  <requires>
+    <import addon="xbmc.python" version="1.0"/>
+  </requires>
+  <extension point="xbmc.python.script"
+             library="default.py" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Will make a plugin which links to one of your media libraries.</summary>
+    <description lang="en">Will make a plugin which links to one of your media libraries.</description>
+    <platform>all</platform>
+	<genre>other</genre>
+  </extension>
+</addon>
+
+<addon id="script.xbmc-korea.lyrics" name="Korean Lyrics" version="1.3.0" provider-name="nuka1195">
+    <requires>
+        <import addon="xbmc.python" version="1.0"/>
+        <import addon="script.module.xbmcaddon" version="1.0.4"/>
+    </requires>
+    <extension point="xbmc.python.script" library="addon.py"/>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+    <summary lang="en">Lyrics from Korean sites</summary>
+    <summary lang="ko">한국 음악 가사</summary>
+    <description lang="en">Download a Lyrics from Alsong / GomAudio</description>
+    <description lang="ko">알송/곰오디오에서 노래 가사를 받아 음악 재생시 보여줍니다. 스킨 설정에서 가사 스크립트를 지정한후, 노래 재생시 메뉴에서 가사 표시를 선택하면 됩니다.</description>
+    <license>GPL</license>
+    </extension>
+</addon>
+
+<addon id="script.XBMCCLC"
+       name="XBMC Command-Line Client"
+       version="0.1"
+       provider-name="unknown">
+  <requires>
+    <import addon="xbmc.python" version="1.0"/>
+  </requires>
+  <extension point="xbmc.python.script"
+             library="default.py" />
+  <extension point="xbmc.addon.metadata">
+    <summary>XBMC Command-Line Client</summary>
+    <platform>xbox</platform>
+	<genre>tech</genre>
+  </extension>
+</addon>
 </addons>
