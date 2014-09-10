@@ -177,13 +177,8 @@
     <minversion>28764</minversion>
     <summary lang="en">Noptepad</summary>
     <description lang="en">Notepad</description>
-  </extension>
-  <statfeed>
-    <working>yes</working>
-	<notes>This is a text reader</notes>
-	<maintainer>DanDar3</maintainer>
 	<genre>other</other>
-  </statfeed>
+  </extension>
 </addon>
 
 <addon id="plugin.rtmpGUInoEPG"
