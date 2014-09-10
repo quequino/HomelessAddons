@@ -162,25 +162,6 @@
   </extension>
 </addon>
 
-<addon id="plugin.program.notepad"
-       name="Notepad"
-       version="1.4.0"
-       provider-name="TestTeam">
-  <requires>
-    <import addon="xbmc.python" version="1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="addon.py">
-    <provides>program</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <platform>all</platform>
-    <minversion>28764</minversion>
-    <summary lang="en">Noptepad</summary>
-    <description lang="en">Notepad</description>
-	<genre>other</other>
-  </extension>
-</addon>
-
 <addon id="plugin.rtmpGUInoEPG"
        name="rtmpGUInoEPG"
        version="1.1.0"
