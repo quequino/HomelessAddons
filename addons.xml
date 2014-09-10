@@ -655,7 +655,7 @@ XBMC HUB: j.mp/xbmctorrent]]></description>
 	</extension>
 </addon>
 
-<addon id="repository.Jas0nPC.original" name="Jas0nPC`s Original REPO" version="1.5" provider-name="Jas0nPC">
+<addon id="repository.jas0nPC.original" name="Jas0nPC`s Original REPO" version="1.5" provider-name="Jas0nPC">
 	<extension point="xbmc.addon.repository" name="Jas0nPC`s Original Repository">
         <info compressed="false">https://raw.githubusercontent.com/jas0npc/jas0npc/master/addons.xml</info>
 		<checksum>https://raw.githubusercontent.com/jas0npc/jas0npc/master/addons.xml.md5</checksum>
@@ -664,6 +664,19 @@ XBMC HUB: j.mp/xbmctorrent]]></description>
 	<extension point="xbmc.addon.metadata">
 		<summary>Install MY Addons</summary>
 		<description>Download and install addons from Jas0nPC`s Repo. Please note Jas0nPC has now left the XBMC scene and these are no longer maintained</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="repository.palcotv" name="palcoTV repository" version="1.0" provider-name="Juarrox">
+	<extension point="xbmc.addon.repository" name="palcoTV Addon Repository">
+		<info compressed="false">http://github.com/Juarrox/palcotv-repository/raw/master/addons.xml</info>
+		<checksum>http://github.com/Juarrox/palcotv-repository/raw/master/addons.xml.md5</checksum>
+		<datadir zip="true">http://github.com/Juarrox/palcotv-repository/raw/master/zips</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Instalacion de palcoTV</summary>
+		<description>Repositorio de palcoTV para XBMC. Visita [COLOR royalblue]http://palcotv.blogspot.com.es[/COLOR]</description>
 		<platform>all</platform>
 	</extension>
 </addon>

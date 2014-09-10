@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.Jas0nPC.original" name="Jas0nPC`s Original REPO" version="1.5" provider-name="Jas0nPC">
+<addon id="repository.jas0nPC.original" name="Jas0nPC`s Original REPO" version="1.5" provider-name="Jas0nPC">
 	<extension point="xbmc.addon.repository" name="Jas0nPC`s Original Repository">
         <info compressed="false">https://raw.githubusercontent.com/jas0npc/jas0npc/master/addons.xml</info>
 		<checksum>https://raw.githubusercontent.com/jas0npc/jas0npc/master/addons.xml.md5</checksum>
