@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.weeb.tv" version="0.1.33" name="WEEB.TV" provider-name="weeb.tv">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.simplejson" version="2.0.10"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>WEEB.TV - Television on the Internet</summary>
+		<summary lang="pl">WEEB.TV - Telewizja przez Internet</summary>
+		<description>Popular channels, live, 24 hours on your computer screen.</description>
+		<description lang="pl">Popularne kanały, na żywo, 24h na ekranie twojego komputera.</description>
+		<disclaimer>Watch popular channels on your computer monitor, transmitting by users from all over the world.</disclaimer>
+		<disclaimer lang="pl">Oglądaj popularne kanały na monitorze Twojego komputera, transmitowane przez użytkowników z całego świata.</disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
